@@ -1,0 +1,43 @@
+# Copyright (C) 2023 Vladimir Kalaganov
+# This file is distributed under the same license as the Analytics L49 plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Analytics L49 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/analytics-l49\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-28T08:58:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: analytics-l49\n"
+
+#. Plugin Name of the plugin
+msgid "Analytics L49"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin for Installing Analytics L49. Website: https://analytics.l49.org/dashboard"
+msgstr ""
+
+#. Author of the plugin
+msgid "Vladimir Kalaganov"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://kalaganov5.com"
+msgstr ""
+
+#: analytics-l49.php:45
+msgid "Analytics L49 Settings"
+msgstr ""
+
+#: analytics-l49.php:47
+msgid "Official Website: <a href=\"https://analytics.l49.org/\" target=\"_blank\">https://analytics.l49.org/</a>"
+msgstr ""
+
+#: analytics-l49.php:95
+msgid "Enter your Script ID for the Analytics L49."
+msgstr ""

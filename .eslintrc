@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "plugin:@wordpress/eslint-plugin/esnext"
+    ],
+    "env": {
+        "browser": true,
+        "es2022": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2022
+    },
+    "plugins": [
+        "@babel"
+    ],
+    "rules": {
+        "@babel/new-cap": "error",
+        "@babel/no-invalid-this": "error",
+        "@babel/object-curly-spacing": "error",
+        "@babel/semi": "error",
+        "@babel/no-unused-expressions": "error",
+        "@babel/valid-typeof": "error"
+    }
+}

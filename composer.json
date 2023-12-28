@@ -1,0 +1,35 @@
+{
+  "name": "kalaganov5/analytics-l49",
+  "description": "",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Vladimir Kalaganov",
+      "email": "kalaganov5@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "composer/installers": "~1.0",
+    "johnpbloch/wordpress-core": "^5.7"
+  },
+  "require-dev": {
+    "wp-cli/i18n-command": "^2.2.5"
+  },
+  "scripts": {
+    "lint:wpcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+    "lint:php": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor .",
+    "make-pot": "wp i18n make-pot . languages/analytics-l49.pot"
+  },
+  "autoload": {
+    "psr-4": {
+      "kalaganov5\\analytics-l49\\": ""
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
